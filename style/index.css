@@ -1,0 +1,153 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color:darkmagenta;
+}
+#tela{
+    width: 300px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+#tela_2{
+    width: 300px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    left: 90px;
+}
+.imagem, img{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+.camera{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 140px;
+    bottom: 498px;
+}
+.cam{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.camera_2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 238px;
+    right: 80px;
+}
+.cam_2{
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    position: relative;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+.c{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+.c_2{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+.text{
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+}
+a.t{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+.btn{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    left: 250px;
+    top: 10px;
+}
+a{
+    position: relative;
+    left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.lam{
+    position: relative;
+    right: 125px;
+    bottom: 50px;
+    font-size: 5rem;
+}
+#on{
+    width: 80px;
+    height: 30px;
+    background-color: darkgray;
+    position: relative;
+    right: 200px;
+    top: 10px;
+}
+p.n{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 5px;
+}
+#off{
+    width: 80px;
+    height: 30px;
+    background-color: darkgray;
+    position: relative;
+    right: 130px;
+    top: 65px;
+}
+p{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    color:darkslategrey;
+}
+@media only screen and (max-width: 768px){
+    #tela_2{
+      background-color:lightgrey ;
+    }
+    .btn{
+      position: relative;
+      left: 4px;
+    }
+  }
